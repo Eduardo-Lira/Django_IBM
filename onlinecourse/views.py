@@ -1,30 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Eduardo-Lira 
-dennislamcv1
-/
-IBMFullStackSoftware
-Public
-Code
-Issues
-2
-Pull requests
-Actions
-Security
-Insights
-IBMFullStackSoftware/Developing Applications with SQL, Databases, and Django/DevelopingApplications/onlinecourse/views.py /
-@dennislamcv1
-dennislamcv1 Add files via upload
-Latest commit 15fb0f2 on 22 Jun 2021
- History
- 1 contributor
-186 lines (156 sloc)  6.78 KB
-
 from django.shortcuts import render
 from django.http import HttpResponseRedirect
 # <HINT> Import any new Models here
@@ -208,19 +181,3 @@ def show_exam_result(request, course_id, submission_id):
     #user = request.user
     #return render(request, 'onlinecourse/show_exam_result.html', context)
     return render(request, 'onlinecourse/exam_result_bootstrap.html', context)
-
-
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
